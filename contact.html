@@ -9,19 +9,23 @@
 
 <!-- Top bar of website; my name & links -->
 <header id="mainheader">
-	<h1 id="myname">Matt Tibby</h1>
-	<nav>
-		<a href="./index.html">About</a>
-		<a href="./portfolio.html">Portfolio</a>
-		<a href="./contact.html">Contact</a>
-	</nav>
+	<div id="headercontainer">
+		<h1 id="myname">Matt Tibby</h1>
+		<nav>
+			<a href="./index.html">About</a>
+			<a href="./portfolio.html">Portfolio</a>
+			<a href="./contact.html">Contact</a>
+		</nav>
+	</div>
 </header>
 
 <!-- Contact section -->
 <div class="container">
 
 	<form id="mainsection">
-		<h2>Contact</h2>
+		<header>
+			<h2>Contact</h2>
+		</header>
 		Name <br>
 		<input type="text" name="name"><br>
 		Email <br>
@@ -36,10 +40,13 @@
 		<header>
 			<h4 ID="connectHead">Connect with Me</h4>
 		</header>
+		<div id="connectbreak"></div>
 		<!-- Three social media links with icons -->
-		<a href="https://github.com/MTibby92"><img src="./assets/images/githublogo.png" alt="Github Logo Link"></a>
-		<a href="https://www.linkedin.com/in/matthew-tibby-363290b9"><img src="./assets/images/linkedinlogo.png" alt="LinkedIn Logo Link"></a>
-		<a href="#"><img src="./assets/images/stackoverflowlogo.png" alt="Stack Overflow Logo Link"></a>
+		<div id="iconwrap">
+			<a href="https://github.com/MTibby92"><img src="./assets/images/githublogo.png" alt="Github Logo Link"></a>
+			<a href="https://www.linkedin.com/in/matthew-tibby-363290b9"><img id="middleimage" src="./assets/images/linkedinlogo.png" alt="LinkedIn Logo Link"></a>
+			<a href="#"><img src="./assets/images/stackoverflowlogo.png" alt="Stack Overflow Logo Link"></a>
+		</div>
 	</div>
 
 </div>
