@@ -13,7 +13,7 @@
 		<h1 id="myname">Matt Tibby</h1>
 		<nav>
 			<a href="./index.html">About</a>
-			<a href="./portfolio.html">Portfolio</a>
+			<a id="middlelink" href="./portfolio.html">Portfolio</a>
 			<a href="./contact.html">Contact</a>
 		</nav>
 	</div>
@@ -26,13 +26,16 @@
 		<header>
 			<h2>Contact</h2>
 		</header>
-		Name <br>
-		<input type="text" name="name"><br>
-		Email <br>
-		<input type="email" name="email"><br>
-		Message <br>
-		<input type="text" name="message"><br>
-		<input type="submit" value="Submit">
+		<div id="mainbreak"></div>
+		<div id="mainwrapper">
+			<span>Name</span> <br>
+			<input type="text" name="name" placeholder="John Doe"><br>
+			<span>Email</span> <br>
+			<input type="email" name="email" placeholder="example@gmail.com"><br>
+			<span>Message</span> <br>
+			<textarea rows="10" cols="40" name="message"></textarea><br>
+			<input id="submitbutton" type="submit" value="Submit">
+		</div>
 	</form>
 
 	<!-- Connect with me section -->
@@ -49,10 +52,12 @@
 		</div>
 	</div>
 
+	<div id="push"></div>
+
 </div>
 
 <!-- Footer for the site -->
-<footer>
+<footer class="footer">
 	<p>&copy; Copyright 2016 Matt Tibby</p>
 </footer>
 
