@@ -153,14 +153,48 @@ h2 {
 	line-height: 25px;
 }
 
-/*image links on the Portfolio Page*/
-.portfolioimage {
-	margin-bottom: 40px;
-	padding: 0px !important;
-	/*margin-right: 35px*/;
-	margin-right: 43px;
-	width: 42.5% !important;
+
+/*=============================PORTFOLIO Section ============================================*/
+
+
+/*Portolio Main Content, not including header and break*/
+#portfolio-mainwrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+
+/*Div surrounding each anchor and the image*/
+.portfolio-image-wrapper {
+	width: 40%;
+	margin-bottom: 20px;
+	margin-left: 30px;
+
+}
+
+/*image links on the Portfolio Page*/
+.portfolio-image {
+	width: 100%;
+}
+
+/*Div over the image with text*/
+.portfolio-image-label {
+	width: 260px;
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 130px;
+    text-align: center;
+}
+
+/*Text in the div over image*/
+.portfolio-image-text {
+	margin-top: 15px;
+}
+
+
+/*==================================END PORTFOLIO Section===============================================*/
 
 /*Field Names for Contact me Page*/
 #mainwrapper span {
