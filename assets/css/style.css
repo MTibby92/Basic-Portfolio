@@ -153,6 +153,27 @@ h2 {
 	line-height: 25px;
 }
 
+/*Main Content not including the Header or the break*/
+#portolio-mainwrapper {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px; 
+}
+
+/*About Me profile image*/
+#portfolio-mainwrapper img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+/*About me paragraphs*/
+#portfolio-mainwrapper p {
+	line-height: 25px;
+}
+
 /*image links on the Portfolio Page*/
 .portfolioimage {
 	margin-bottom: 40px;
