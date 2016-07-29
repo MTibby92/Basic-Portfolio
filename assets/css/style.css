@@ -180,7 +180,7 @@ h2 {
 /*Div over the image with text*/
 .portfolio-image-label {
 	width: 260px;
-    background-color: black;
+    background-color: #4aaaa5;
     height: 50px;
     position: absolute;
     z-index: 100;
@@ -191,6 +191,7 @@ h2 {
 /*Text in the div over image*/
 .portfolio-image-text {
 	margin-top: 15px;
+	color: white;
 }
 
 
